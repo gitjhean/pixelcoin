@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Pixelcoin;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelcoin';
+}
+
+/** header **/
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#hlogo {
+    font-size: 32px;
+    letter-spacing: -2px;
+    width: 160px;
+    margin-left: 470px;
+    color: #ED6665;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 22.5px;
+}
+
+#texto3 {
+    margin-right: 553px;
+}
+
+ul li {
+    padding: 0px 15px 0 15px;
+    transform: padding-bottom;
+    transition: 250ms ease-out;
+    color: #182710;
+}
+
+li:hover {
+    padding-bottom: 8px;
+}
+
+/** criptomoeda background **/
+
+#backgcripto {
+    width: 100%;
+    height: 630px;
+    background: linear-gradient(0deg, #ED6665, #FFFFFF);
+}
+
+/** informations **/
+
+#informations {
+    width: 45%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-top: 180px;
+}
+
+.info {
+    width: 220px;
+    height: 220px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.info:hover {
+    background-color: #FAFAFA;
+}
+
+
+
